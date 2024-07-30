@@ -8,11 +8,12 @@ pip3 install -r requirements.txt
 ```
 
 Just add square faces jpeg files in the faces folder where each file is named as the tag name you want to put on the head.
+```
 face/
 ...john.jpeg
 ...ahmed.jpeg
 ...steve.jpeg
-
+```
 then run the script.
 
 ```python
