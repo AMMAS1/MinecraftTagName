@@ -19,3 +19,5 @@ then run the script.
 ```python
 python3 run_me.py
 ```
+
+press 'q' to quit.
