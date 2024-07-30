@@ -9,7 +9,8 @@ known_names = []
 
 # Loop through the files in the 'faces' directory
 for face in os.listdir('faces'):
-    if face == 'README.md':
+    # if the file ends with '.jpeg'
+    if not face.endswith('.jpeg'):
         continue
     # Load each image file and get the face encoding
     known_faces.append(face_recognition.face_encodings(face_recognition.load_image_file('faces/' + face))[0])
